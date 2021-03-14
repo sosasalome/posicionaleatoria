@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ultimo</title>
+	<link rel="stylesheet" type="text/css" href="estilos201.css">
+<body background="puntos.jpg" class="anita">
+<font size="8"><font face="Merriweather-Light"  ><div class="div34" class="anita"><b><big><b>movimiento aleatorio.&nbsp;&nbsp;</big></b></center><BR>
+</head>
+<body onload="cuadrado()">
+<div class="mo" id="cua" onmousedown="clic(event)"></div>
+<script>
+	function cuadrado(){
+	var px=Math.floor((Math.random()*(1001-0))+0);
+    var py=Math.floor((Math.random()*(501-0))+0);
+    cua.style.left=px+"px";
+    cua.style.top=py+"px";
+    }
+    function clic(event){
+    var px=Math.floor((Math.random()*(1001-0))+0);
+    var py=Math.floor((Math.random()*(501-0))+0);
+    cua.style.left=px+"px";
+    cua.style.top=py+"px";
+    }
+</script>
+</body>
+</html>
